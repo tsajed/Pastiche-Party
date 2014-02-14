@@ -9,9 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: Player
+  m_Name: MiniMona
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,8 +40,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.92668629, y: .76666683, z: -4.99830341}
-  m_LocalScale: {x: .5, y: .5, z: .5}
+  m_LocalPosition: {x: 1.89948845, y: 2.8569169, z: -4.99830341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
   m_Father: {fileID: 0}
@@ -53,8 +52,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.49117279, y: 1.57598984, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: -.326070905, y: .105588436, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
 --- !u!82 &8200000
@@ -123,23 +122,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74ee73624437046df8ba565eda672958, type: 3}
+  m_Script: {fileID: 11500000, guid: ad2c2a3cff3bd4fb39c7a77aeadfd33c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apple: {fileID: 400002, guid: b6126487ed1224968b33e8b1a7105254, type: 2}
-  speed: 20
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ec8961fb15d4440d88e481b8727fbae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
+  apple: {fileID: 400002, guid: b48fd668a1aa942e48337563c22fd284, type: 2}
+  fireRate: 3
+  delay: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -161,7 +149,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 4c71cf69f033a49c987ababae22a34fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 45db639d5389447f9a57cf6d4a8e343c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
