@@ -38,6 +38,9 @@ function addExplosions() {
     	yield WaitForSeconds(1.0);
 	}
 
-	Destroy(gameObject);
+	yield WaitForSeconds(3.0);
+
+	Application.LoadLevel(2);
+
 
 }

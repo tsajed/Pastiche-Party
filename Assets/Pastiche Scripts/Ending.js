@@ -4,6 +4,7 @@ var bubble2 : GameObject;
 var bubble3 : GameObject;
 var bubble4 : GameObject;
 var bubble5 : GameObject;
+var endingMona : GameObject;
 
 var blah : boolean = false;
 var textDelay : float = 4.0;
@@ -28,7 +29,7 @@ function startCinematic() {
 	bubble1.SetActive(false);
 	bubble2.SetActive(true);
 
-	yield WaitForSeconds(2.0);
+	yield WaitForSeconds(4.0);
 
 	bubble2.SetActive(false);
 	bubble3.SetActive(true);
@@ -38,12 +39,13 @@ function startCinematic() {
 	bubble3.SetActive(false);
 	bubble4.SetActive(true);
 
-	yield WaitForSeconds(4.0);
+	yield WaitForSeconds(5.0);
 
 	bubble4.SetActive(false);
 	bubble5.SetActive(true);
 
-	yield WaitForSeconds(4.0);
+	yield WaitForSeconds(3.0);
 
-	Application.LoadLevel(1);
+	endingMona.SetActive(true);
+
 }
