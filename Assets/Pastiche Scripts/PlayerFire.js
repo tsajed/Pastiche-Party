@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 var speed : float = 6.0;
-var maxDistance : float = 25.0;
+var maxDistance : float = 20.0;
 
 function Start () {
 	maxDistance += transform.position.x;
@@ -24,8 +24,7 @@ function Update () {
 }
 
 function OnCollisionEnter2D(coll : Collision2D) {
-	if(coll.gameObject.tag == "Enemy") {
-		Debug.Log("BOO");
+	if(coll.gameObject.tag == "Enemy" || coll.gameObject.tag == "EnemyProjectile") {
 		Destroy(gameObject);
 	}
 }

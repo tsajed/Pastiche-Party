@@ -24,7 +24,7 @@ function Update () {
 
 function OnCollisionEnter2D(coll : Collision2D) {
 	Debug.Log("HIT");
-	if(coll.gameObject.tag == "Apple") {
+	if(coll.gameObject.tag == "Apple" || coll.gameObject.tag == "Player") {
 		transform.GetChild(0).gameObject.SetActive(false);
 		animation.Play();
 		yield WaitForSeconds(1.5);

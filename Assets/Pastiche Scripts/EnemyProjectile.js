@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 var speed : float = 4.0;
-var maxDistance : float = 25.0;
+var maxDistance : float = 20.0;
 
 function Start () {
 	maxDistance = transform.position.x - maxDistance;
@@ -21,4 +21,10 @@ function Update () {
 		Destroy(gameObject);
 	}
 
+}
+
+function OnCollisionEnter2D(coll : Collision2D) {
+	if(coll.gameObject.tag == "Player" || coll.gameObject.tag == "Apple") {
+		Destroy(gameObject);
+	}
 }

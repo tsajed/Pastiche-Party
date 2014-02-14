@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: spawner
   m_TagString: Untagged
@@ -57,7 +57,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
---- !u!114 &11400000
+--- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -65,14 +65,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26e8197b97b4a4fa2ab4c51e208a70f4, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d01b839cb49a472b80a5909a174bddd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnTime: 4
-  spawnDelay: 2
   enemies:
-  - {fileID: 100000, guid: 4c5736ea0764d49c3a6adc2250d33f0f, type: 2}
-  - {fileID: 100006, guid: 66fe2da2077f94183ae003dde85a8b1a, type: 2}
+  - {fileID: 100000, guid: 68f1ebc94372f4312b4c1aaf3f0f2e3f, type: 2}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
