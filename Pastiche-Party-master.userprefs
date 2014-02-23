@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Pastiche Scripts\PlayerMove.js">
+    <Files>
+      <File FileName="Assets\Pastiche Scripts\Ending.js" Line="51" Column="24" />
+      <File FileName="Assets\Pastiche Scripts\GameController.js" Line="32" Column="37" />
+      <File FileName="Assets\Pastiche Scripts\BossMona.js" Line="13" Column="65" />
+      <File FileName="Assets\Pastiche Scripts\PlayerMove.js" Line="41" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
