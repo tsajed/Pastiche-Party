@@ -11,6 +11,7 @@ var text1 : GameObject;
 var text2 : GameObject;
 var text3 : GameObject;
 
+
 var timer : float;
 var firstText : boolean = false;
 
@@ -18,6 +19,7 @@ function Start() {
 	spawners = GameObject.Find("Spawners");
 	player = GameObject.Find("Player");
 	timer = Time.timeSinceLevelLoad;
+
 	instructions();
 }
 

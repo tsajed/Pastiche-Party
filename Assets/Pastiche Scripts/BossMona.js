@@ -10,6 +10,7 @@ function Start () {
 }
 
 function Update () {
+
 	transform.position = Vector2.Lerp(transform.position, Vector2(5.0, transform.position.y), Time.deltaTime);
 
 	if(health <= 0 && isDead == false) {
