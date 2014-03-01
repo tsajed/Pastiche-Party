@@ -7,7 +7,7 @@ and destroy that painting, which is the final boss.
 
 You move around with up,left, down, right arrows and you shoot apples with left mouse button.
 
-In order to play this game please download the Big Mama's Return.exe file and also Big Mama's Return Data folder. Both the .exe and folder are needed on the same directory for the game to be played. It's only playable in windows. Thanks.
+In order to play this game please download the whole project as zip file, extract it and then run Big Mama's Return.exe. Both the .exe and folder are needed on the same directory for the game to be played. It's only playable in windows. Thanks.
 
 Made by
 
